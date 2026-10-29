@@ -12,7 +12,9 @@ Quatro skills para melhorar artes, layouts, cores e prompts de imagens fotorreal
 ## Onde está cada versão
 
 - **`.claude/skills/<nome>`**: cópias originais, sem nenhuma alteração. Use no Claude Code.
-- **`claude-ai-uploads/<nome>.zip`**: pacotes para enviar ao claude.ai. A única mudança é a
+- **`claude-ai-uploads/winter-<nome>.zip`**: pacotes para enviar ao claude.ai. O nome ganhou o
+  prefixo `winter-` porque o claude.ai já traz skills da Anthropic chamadas `canvas-design` e
+  `theme-factory` e recusa nomes repetidos ("This skill name is already in use"). A outra mudança é a
   `description` do cabeçalho do `SKILL.md`, encurtada para até 200 caracteres (limite citado
   pela página de suporte do claude.ai) e com palavras em português para a skill ser acionada
   em pedidos escritos em português. Instruções, referências, fontes e scripts são idênticos.
