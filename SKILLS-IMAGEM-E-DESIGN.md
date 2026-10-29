@@ -26,6 +26,12 @@ renomeada porque o nome da pasta precisa ser igual ao `name` declarado no `SKILL
 2. Abra a página de skills da sua conta: [claude.ai/customize/skills](https://claude.ai/customize/skills)
    (menu **Customize > Skills**).
 3. Envie cada `.zip` (sem descompactar) e deixe a skill ativada.
+   Envie só esses quatro arquivos. Este `.md` e o ZIP do repositório inteiro (botão
+   "Download ZIP" do GitHub) não são skills, e o claude.ai recusa os dois com os erros
+   "O arquivo .md deve conter o nome e a descrição da skill formatados em YAML" e
+   "Arquivo .zip ou .skill deve incluir um arquivo SKILL.md".
+   No Mac, o Safari pode descompactar o download sozinho; nesse caso, baixe pelo Chrome
+   ou desative "Abrir arquivos seguros após o download".
 4. Confira se a execução de código está ligada nas configurações: as skills dependem dela.
 
 Depois disso, o Claude carrega a skill sozinho quando o pedido combina com a descrição.
